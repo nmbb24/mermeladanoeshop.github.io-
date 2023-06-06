@@ -1,0 +1,90 @@
+/* Estilos generales */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #080808;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+   h4, h5, h6 {
+    font-family: Impact;
+    color: #e02ea2;
+
+  }
+  
+  h1, h2, h3 {
+    font-family: system-ui,;
+    color: #f2250a;
+  }
+  
+  /* Estilos de encabezado */
+  header {
+    background-color: #19d638;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Estilos de navegación */
+  nav {
+    background-color: #f3ff0a;
+  }
+  
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+  
+  nav ul li {
+    float: left;
+    
+  }
+  
+  nav ul li a {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    background-color: #cacaca;
+  }
+  
+  /* Estilos de sección de carros destacados */
+  #destacados {
+    padding: 20px;
+  }
+  
+  .carro {
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: top;
+  }
+  
+  .carro img {
+    width: 200px;
+    height: auto;
+    
+  }
+  
+  .carro h3 {
+    margin-top: 10px;
+  }
+  
+  .carro p {
+    color: #d25757;
+  }
+  
+  /* Estilos de pie de página */
+  footer {
+    background-color: #0040ff;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+  }
+  
